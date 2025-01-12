@@ -107,6 +107,7 @@ public class MainUserCreation extends Fragment {
         return view;
     }
 
+    //code snippets for image selection from https://stackoverflow.com/questions/75102472/how-to-pick-image-from-gallery-on-fragment
     private void openImageSelection() {
         Intent intent = new Intent(Intent.ACTION_PICK);
         intent.setType("image/*");

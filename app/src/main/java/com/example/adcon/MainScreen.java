@@ -71,6 +71,7 @@ public class MainScreen extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main_screen, container, false);
         RecyclerView recyclerView = view.findViewById(R.id.user_recycler_view);
+        //code for RecyclerView from https://www.geeksforgeeks.org/how-to-implement-recylerview-in-a-fragment-in-android/
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(new UserAdapter(getContext(), users));

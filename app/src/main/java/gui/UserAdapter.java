@@ -26,6 +26,7 @@ import java.util.List;
 
 import dataTypes.User;
 
+//code for RecyclerView from https://www.geeksforgeeks.org/how-to-implement-recylerview-in-a-fragment-in-android/
 public class UserAdapter extends RecyclerView.Adapter<UserHolder> {
 
     private Context context;

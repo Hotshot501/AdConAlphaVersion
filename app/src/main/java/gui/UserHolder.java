@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.adcon.R;
 
+//code for RecyclerView from https://www.geeksforgeeks.org/how-to-implement-recylerview-in-a-fragment-in-android/
 public class UserHolder extends RecyclerView.ViewHolder {
 
     ImageView userImageView;
