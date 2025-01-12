@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/mainUserCreation">
 
     <fragment
         android:id="@+id/FirstFragment"
@@ -25,4 +25,27 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/mainUserCreation"
+        android:name="com.example.adcon.MainUserCreation"
+        android:label="fragment_main_user_creation"
+        tools:layout="@layout/fragment_main_user_creation" >
+        <action
+            android:id="@+id/action_mainUserCreation_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.example.adcon.MainScreen"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <action
+            android:id="@+id/action_mainScreen_to_userScreen"
+            app:destination="@id/userScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/userScreen"
+        android:name="com.example.adcon.UserScreen"
+        android:label="fragment_user_screen"
+        tools:layout="@layout/fragment_user_screen" />
 </navigation>

@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background1">#2E2020</color>
+    <color name="switchThumb">#00BCD4</color>
+    <color name="switchTrack">#6D5555</color>
 </resources>

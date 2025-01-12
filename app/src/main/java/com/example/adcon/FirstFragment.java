@@ -14,7 +14,6 @@ import com.example.adcon.databinding.FragmentFirstBinding;
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
-
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,

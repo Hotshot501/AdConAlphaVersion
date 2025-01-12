@@ -1,7 +1,9 @@
 package bluetooth;
 
-public interface NetworkDataInterface {
+import java.io.IOException;
+
+public interface NetworkDataInterface{
 
     //returns the number of currently connected devices
-    public int getNumberOfConnectedDevices();
+    public int getNumberOfConnectedProfiles();
 }
