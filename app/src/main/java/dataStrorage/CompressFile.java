@@ -11,6 +11,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+//All code from https://stackoverflow.com/questions/28424942/decrease-image-size-without-losing-its-quality-in-android
 public class CompressFile {
 
     public static File getCompressedImageFile(File file, Context mContext) {
